@@ -68,3 +68,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### steps execution
+create text input and button with react-bootstrap and handle event on click of button
+if input value is there call the apis with axios, returning records with array and check the condition of status 200
+if no data is coming from api, then np data found
+implementation of pagination and display 5 records at a time
+when no input is there display alert
+
+other than that as on real time execution created utility function for real time project
+please check apiUtil.js, apiCOnfigUrl.js, service.js
+
